@@ -72,7 +72,7 @@ class View extends Component {
           title: '示例',
           dataIndex: 'example',
           key: 'example',
-          width: 80,
+          width: 200,
           render(_, item) {
             return <p style={{ whiteSpace: 'pre-wrap' }}>{item.example}</p>;
           }
@@ -172,7 +172,7 @@ class View extends Component {
         title: '示例',
         dataIndex: 'example',
         key: 'example',
-        width: 80,
+        width: 200,
         render(_, item) {
           return <p style={{ whiteSpace: 'pre-wrap' }}>{item.example}</p>;
         }
@@ -290,7 +290,7 @@ class View extends Component {
         title: '示例',
         dataIndex: 'example',
         key: 'example',
-        width: 80,
+        width: 200,
         render(_, item) {
           return <p style={{ whiteSpace: 'pre-wrap' }}>{item.example}</p>;
         }
@@ -310,13 +310,13 @@ class View extends Component {
         title: '参数名称',
         dataIndex: 'name',
         key: 'name',
-        width: '200px'
+        width: 140
       },
       {
         title: '参数值',
         dataIndex: 'value',
         key: 'value',
-        width: '300px'
+        width: '250px'
       },
       {
         title: '是否必须',
@@ -328,7 +328,7 @@ class View extends Component {
         title: '示例',
         dataIndex: 'example',
         key: 'example',
-        width: '80px',
+        width: '200px',
         render(_, item) {
           return <p style={{ whiteSpace: 'pre-wrap' }}>{item.example}</p>;
         }
